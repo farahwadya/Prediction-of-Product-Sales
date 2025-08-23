@@ -8,8 +8,13 @@ This project aims to predict product sales. It analyzes the relationship between
 - Removed duplicates and ensured consistency of categorical columns.
 
 ### Data exploration
-1. Item Visibility vs Outlet Sales based on outlet type
+1. Item Visibility vs Outlet Sales based on outlet type:<br>
+sales are clearly higher in Supermarkets compared to Grocery Stores, while Visibility alone is not a strong indicator, as some products sell well even with low visibility.
+For prediction models, it is recommended to include other features such as Item_MRP, Item_Type, and Outlet_Type alongside Visibility.
 <img width="589" height="455" alt="Item Visibility vs Outlet Sales" src="https://github.com/user-attachments/assets/e2146326-5db2-4e95-932f-34de3803ec35" />
+<br>
 
-2. Distribution of Item Fat Content 
+2. Distribution of Item Fat Content:<br>
+count of low fat are higher than count of regular fat
 <img width="580" height="455" alt="Distribution of Item Fat Content" src="https://github.com/user-attachments/assets/35163e25-0559-45ec-89eb-68c20be519d5" />
+
